@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a:hover{
+    cursor: pointer;
+}
+.main{
+    max-width: 1024px;
+    margin: 0px auto;
+}
+.main form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.character{
+    display: flex;
+    height: 100px;
+}
+
+.img-character{
+    height: 100%;
+}
+
+.name-character{
+    color: #253eaf;
+}
+
+.name-character:hover{
+    color: #c52822;
+}
+
+.btn-load{
+    padding: 5px 10px;
+    border: 1px #000000 solid;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+/* favourites */
+.favourites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden{
+    display: none;
+}
